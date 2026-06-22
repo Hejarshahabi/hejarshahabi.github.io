@@ -32,10 +32,7 @@ const Home = () => {
             
             <div className="professional-summary-text">
               <p style={{ marginBottom: '1rem' }}>
-                I am an Earth Sciences and GeoAI Specialist with over five years of experience translating complex spatial data into scalable solutions.
-              </p>
-              <p>
-                I apply advanced machine learning to multi-source datasets (LiDAR, multispectral, hyperspectral) and build automated image processing pipelines utilizing spatial geodatabases, algorithmic scripting, and cloud-based GIS platforms. Currently, my work focuses on pioneering GeoFoundation models and advancing Earth observation through data fusion and AI-driven workflows.
+                I am an Earth Sciences and GeoAI Specialist with over five years of experience translating complex spatial data into scalable solutions. I apply advanced machine learning to multi-source datasets (LiDAR, multispectral, hyperspectral) and build automated image processing pipelines utilizing spatial geodatabases, algorithmic scripting, and cloud-based GIS platforms. Currently, my work focuses on pioneering GeoFoundation models and advancing Earth observation through data fusion and AI-driven workflows.
               </p>
             </div>
             
