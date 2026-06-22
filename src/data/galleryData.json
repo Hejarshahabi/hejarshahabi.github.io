@@ -1,0 +1,282 @@
+[
+  {
+    "id": 0,
+    "src": "/gallery/img_0.jpg",
+    "width": 959,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.799
+  },
+  {
+    "id": 4,
+    "src": "/gallery/img_4.jpg",
+    "width": 1200,
+    "height": 675,
+    "orientation": "landscape",
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 1,
+    "src": "/gallery/img_1.jpg",
+    "width": 959,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.799
+  },
+  {
+    "id": 24,
+    "src": "/gallery/img_24.jpg",
+    "width": 1200,
+    "height": 1200,
+    "orientation": "square",
+    "aspectRatio": 1.0
+  },
+  {
+    "id": 2,
+    "src": "/gallery/img_2.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 5,
+    "src": "/gallery/img_5.jpg",
+    "width": 1200,
+    "height": 675,
+    "orientation": "landscape",
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 3,
+    "src": "/gallery/img_3.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 26,
+    "src": "/gallery/img_26.jpg",
+    "width": 1200,
+    "height": 1200,
+    "orientation": "square",
+    "aspectRatio": 1.0
+  },
+  {
+    "id": 7,
+    "src": "/gallery/img_7.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 6,
+    "src": "/gallery/img_6.jpg",
+    "width": 1200,
+    "height": 675,
+    "orientation": "landscape",
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 8,
+    "src": "/gallery/img_8.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 9,
+    "src": "/gallery/img_9.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 10,
+    "src": "/gallery/img_10.jpg",
+    "width": 1200,
+    "height": 674,
+    "orientation": "landscape",
+    "aspectRatio": 1.78
+  },
+  {
+    "id": 11,
+    "src": "/gallery/img_11.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 13,
+    "src": "/gallery/img_13.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 12,
+    "src": "/gallery/img_12.jpg",
+    "width": 1200,
+    "height": 675,
+    "orientation": "landscape",
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 14,
+    "src": "/gallery/img_14.jpg",
+    "width": 959,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.799
+  },
+  {
+    "id": 17,
+    "src": "/gallery/img_17.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 15,
+    "src": "/gallery/img_15.jpg",
+    "width": 1200,
+    "height": 800,
+    "orientation": "landscape",
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 18,
+    "src": "/gallery/img_18.jpg",
+    "width": 959,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.799
+  },
+  {
+    "id": 19,
+    "src": "/gallery/img_19.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 16,
+    "src": "/gallery/img_16.jpg",
+    "width": 1200,
+    "height": 800,
+    "orientation": "landscape",
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 20,
+    "src": "/gallery/img_20.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 25,
+    "src": "/gallery/img_25.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 21,
+    "src": "/gallery/img_21.jpg",
+    "width": 1200,
+    "height": 800,
+    "orientation": "landscape",
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 27,
+    "src": "/gallery/img_27.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 31,
+    "src": "/gallery/img_31.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 22,
+    "src": "/gallery/img_22.jpg",
+    "width": 1200,
+    "height": 900,
+    "orientation": "landscape",
+    "aspectRatio": 1.333
+  },
+  {
+    "id": 33,
+    "src": "/gallery/img_33.jpg",
+    "width": 960,
+    "height": 1200,
+    "orientation": "portrait",
+    "aspectRatio": 0.8
+  },
+  {
+    "id": 23,
+    "src": "/gallery/img_23.jpg",
+    "width": 1200,
+    "height": 674,
+    "orientation": "landscape",
+    "aspectRatio": 1.78
+  },
+  {
+    "id": 28,
+    "src": "/gallery/img_28.jpg",
+    "width": 1200,
+    "height": 674,
+    "orientation": "landscape",
+    "aspectRatio": 1.78
+  },
+  {
+    "id": 29,
+    "src": "/gallery/img_29.jpg",
+    "width": 1200,
+    "height": 800,
+    "orientation": "landscape",
+    "aspectRatio": 1.5
+  },
+  {
+    "id": 30,
+    "src": "/gallery/img_30.jpg",
+    "width": 1200,
+    "height": 675,
+    "orientation": "landscape",
+    "aspectRatio": 1.778
+  },
+  {
+    "id": 32,
+    "src": "/gallery/img_32.jpg",
+    "width": 1200,
+    "height": 599,
+    "orientation": "landscape",
+    "aspectRatio": 2.003
+  },
+  {
+    "id": 34,
+    "src": "/gallery/img_34.jpg",
+    "width": 1200,
+    "height": 675,
+    "orientation": "landscape",
+    "aspectRatio": 1.778
+  }
+]

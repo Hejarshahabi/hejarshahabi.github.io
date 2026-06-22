@@ -1,0 +1,184 @@
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: var(--card-border);
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  margin-left: -1px;
+}
+
+.timeline-item {
+  padding: 10px 0 30px 50px;
+  position: relative;
+  width: 100%;
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 12px;
+  top: 20px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 0 10px var(--primary-glow);
+}
+
+.timeline-content {
+  width: 100%;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.timeline-header h3 {
+  color: var(--primary-color);
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.timeline-date {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.05);
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.timeline-company {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.company-name {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.05rem;
+}
+
+.company-location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.timeline-bullets {
+  padding-left: 1.2rem;
+  color: var(--text-color);
+}
+
+.timeline-bullets li {
+  margin-bottom: 0.5rem;
+}
+
+.timeline-bullets li:last-child {
+  margin-bottom: 0;
+}
+
+/* New Layout additions for Resume page */
+.resume-section-title {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 0.5rem;
+}
+
+.resume-section-title h2 {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.resume-section-title h2 .inline-icon {
+  color: var(--primary-color);
+  margin-right: 0.8rem;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.skill-card {
+  padding: 1.5rem;
+}
+
+.skill-card h3 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.skill-card p {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Awards List */
+.awards-card {
+  padding: 1.5rem 2rem;
+}
+
+.awards-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.awards-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.awards-list li:last-child {
+  margin-bottom: 0;
+}
+
+.awards-list li::before {
+  content: '🏆';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .timeline-header {
+    flex-direction: column;
+  }
+  .timeline-date {
+    align-self: flex-start;
+  }
+}
