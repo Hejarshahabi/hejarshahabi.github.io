@@ -30,9 +30,14 @@ const Home = () => {
               <a href="mailto:hejarshahabi@gmail.com" className="social-icon" aria-label="Email"><FaEnvelope size={20} /></a>
             </div>
             
-            <p className="professional-summary-text">
-              As an Earth Sciences and GeoAI PhD with over five years of experience, I specialize in spatial analysis, remote sensing, and geospatial data management. My technical expertise lies in applying machine learning and deep learning to multi-source data including LiDAR, multispectral, and hyperspectral imagery leveraging the Esri ArcGIS ecosystem, Python, SQL, and Google Earth Engine to build automated image processing pipelines. Currently focused on pioneering GeoFoundation models for Earth observation, I am passionate about utilizing data fusion and AI-driven workflows to deliver scalable solutions for Earth observation.
-            </p>
+            <div className="professional-summary-text">
+              <p style={{ marginBottom: '1rem' }}>
+                I am an Earth Sciences and GeoAI Specialist with over five years of experience translating complex spatial data into scalable solutions.
+              </p>
+              <p>
+                I apply advanced machine learning to multi-source datasets (LiDAR, multispectral, hyperspectral) and build automated image processing pipelines utilizing spatial geodatabases, algorithmic scripting, and cloud-based GIS platforms. Currently, my work focuses on pioneering GeoFoundation models and advancing Earth observation through data fusion and AI-driven workflows.
+              </p>
+            </div>
             
             <div className="hero-actions">
               <Link to="/resume" className="btn">
