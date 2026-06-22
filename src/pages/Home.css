@@ -91,7 +91,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 0.5rem;
-  color: var(--text-muted);
+  color: #cbd5e1; /* ~25% lighter than var(--text-muted) */
   margin-bottom: 1rem;
 }
 
