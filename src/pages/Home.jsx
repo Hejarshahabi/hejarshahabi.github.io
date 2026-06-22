@@ -37,13 +37,13 @@ const Home = () => {
             </div>
             
             <div className="hero-actions">
-              <Link to="/resume" className="btn">
+              <Link to="/resume" className="btn btn-glass btn-glass-primary">
                 Resume <ArrowRight size={18} />
               </Link>
-              <Link to="/projects" className="btn btn-outline">
+              <Link to="/projects" className="btn btn-glass">
                 Projects
               </Link>
-              <a href="mailto:hejarshahabi@gmail.com" className="btn btn-outline">
+              <a href="mailto:hejarshahabi@gmail.com" className="btn btn-glass">
                 Contact
               </a>
             </div>
