@@ -37,7 +37,7 @@ const Home = () => {
             </div>
             
             <div className="hero-actions">
-              <Link to="/resume" className="btn btn-glass btn-glass-primary">
+              <Link to="/resume" className="btn btn-glass">
                 Resume <ArrowRight size={18} />
               </Link>
               <Link to="/projects" className="btn btn-glass">
