@@ -22,7 +22,7 @@ const Home = () => {
             <h1 className="text-gradient">Hejar Shahabi</h1>
             <h2 className="profile-title">GeoAI and Remote Sensing</h2>
             
-            <p className="location"><MapPin size={18} className="inline-icon" style={{marginRight: '6px'}}/> Québec, QC, Canada</p>
+            <p className="location"><MapPin size={18} className="inline-icon" style={{marginRight: '6px'}}/> Québec, Canada</p>
             
             <div className="hero-socials">
               <a href="https://www.linkedin.com/in/hejarshahabi" className="social-icon" aria-label="LinkedIn" target="_blank" rel="noreferrer"><FaLinkedin size={20} /></a>
