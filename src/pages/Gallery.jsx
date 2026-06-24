@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Camera, Heart } from 'lucide-react';
 import galleryData from '../data/galleryData.json';
-import { supabase } from '../supabaseClient';
+import { databases, appwriteConfig } from '../appwriteClient';
 import './Gallery.css';
 
 const GalleryItem = ({ photo }) => {
   const storageKey = `liked_photo_${photo.id}`;
+  const documentId = String(photo.id);
   const [liked, setLiked] = useState(false);
   const [likesCount, setLikesCount] = useState(photo.likes || 0);
 
@@ -16,21 +17,22 @@ const GalleryItem = ({ photo }) => {
       setLiked(true);
     }
     
-    // Fetch live global count from Supabase
+    // Fetch live global count from Appwrite
     const fetchLikes = async () => {
-      const { data, error } = await supabase
-        .from('gallery_likes')
-        .select('likes_count')
-        .eq('id', photo.id)
-        .single();
-        
-      if (data && !error) {
-        setLikesCount(data.likes_count);
+      try {
+        const doc = await databases.getDocument(
+          appwriteConfig.databaseId, 
+          appwriteConfig.collectionId, 
+          documentId
+        );
+        setLikesCount(doc.likes_count);
+      } catch (error) {
+        console.error('Failed to fetch likes for photo ' + photo.id, error);
       }
     };
     
     fetchLikes();
-  }, [photo.id, storageKey]);
+  }, [photo.id, storageKey, documentId]);
 
   const handleLike = async (e) => {
     e.stopPropagation();
@@ -49,11 +51,32 @@ const GalleryItem = ({ photo }) => {
       localStorage.setItem(storageKey, 'true');
     }
     
-    // Update Supabase Database
-    await supabase
-      .from('gallery_likes')
-      .update({ likes_count: newCount })
-      .eq('id', photo.id);
+    // Update Appwrite Database
+    try {
+      await databases.updateDocument(
+        appwriteConfig.databaseId,
+        appwriteConfig.collectionId,
+        documentId,
+        { likes_count: newCount }
+      );
+    } catch (error) {
+      if (error.code === 404) {
+        // Document doesn't exist yet, let's create it!
+        try {
+          // Note: The Appwrite collection must have "Create" permission enabled for "Any"
+          await databases.createDocument(
+            appwriteConfig.databaseId,
+            appwriteConfig.collectionId,
+            documentId,
+            { id: photo.id, likes_count: newCount }
+          );
+        } catch (createError) {
+          console.error('Failed to create initial likes document for photo ' + photo.id, createError);
+        }
+      } else {
+        console.error('Failed to update likes for photo ' + photo.id, error);
+      }
+    }
   };
 
   return (
