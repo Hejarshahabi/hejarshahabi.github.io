@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Camera, Heart } from 'lucide-react';
 import galleryData from '../data/galleryData.json';
+import { supabase } from '../supabaseClient';
 import './Gallery.css';
 
 const GalleryItem = ({ photo }) => {
@@ -9,24 +10,50 @@ const GalleryItem = ({ photo }) => {
   const [likesCount, setLikesCount] = useState(photo.likes || 0);
 
   useEffect(() => {
+    // Check local storage
     const isLiked = localStorage.getItem(storageKey) === 'true';
     if (isLiked) {
       setLiked(true);
-      setLikesCount((photo.likes || 0) + 1);
     }
-  }, [photo.id, photo.likes, storageKey]);
+    
+    // Fetch live global count from Supabase
+    const fetchLikes = async () => {
+      const { data, error } = await supabase
+        .from('gallery_likes')
+        .select('likes_count')
+        .eq('id', photo.id)
+        .single();
+        
+      if (data && !error) {
+        setLikesCount(data.likes_count);
+      }
+    };
+    
+    fetchLikes();
+  }, [photo.id, storageKey]);
 
-  const handleLike = (e) => {
+  const handleLike = async (e) => {
     e.stopPropagation();
+    
+    // Optimistic UI update
+    let newCount;
     if (liked) {
       setLiked(false);
-      setLikesCount((photo.likes || 0));
+      newCount = likesCount - 1;
+      setLikesCount(newCount);
       localStorage.removeItem(storageKey);
     } else {
       setLiked(true);
-      setLikesCount((photo.likes || 0) + 1);
+      newCount = likesCount + 1;
+      setLikesCount(newCount);
       localStorage.setItem(storageKey, 'true');
     }
+    
+    // Update Supabase Database
+    await supabase
+      .from('gallery_likes')
+      .update({ likes_count: newCount })
+      .eq('id', photo.id);
   };
 
   return (
