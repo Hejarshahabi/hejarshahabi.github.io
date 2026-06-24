@@ -5,7 +5,8 @@
     "width": 959,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.799
+    "aspectRatio": 0.799,
+    "likes": 73
   },
   {
     "id": 4,
@@ -13,7 +14,8 @@
     "width": 1200,
     "height": 675,
     "orientation": "landscape",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "likes": 70
   },
   {
     "id": 1,
@@ -21,7 +23,8 @@
     "width": 959,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.799
+    "aspectRatio": 0.799,
+    "likes": 90
   },
   {
     "id": 24,
@@ -29,7 +32,8 @@
     "width": 1200,
     "height": 1200,
     "orientation": "square",
-    "aspectRatio": 1.0
+    "aspectRatio": 1,
+    "likes": 95
   },
   {
     "id": 2,
@@ -37,7 +41,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 51
   },
   {
     "id": 5,
@@ -45,7 +50,8 @@
     "width": 1200,
     "height": 675,
     "orientation": "landscape",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "likes": 66
   },
   {
     "id": 3,
@@ -53,7 +59,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 35
   },
   {
     "id": 26,
@@ -61,7 +68,8 @@
     "width": 1200,
     "height": 1200,
     "orientation": "square",
-    "aspectRatio": 1.0
+    "aspectRatio": 1,
+    "likes": 27
   },
   {
     "id": 7,
@@ -69,7 +77,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 108
   },
   {
     "id": 6,
@@ -77,7 +86,8 @@
     "width": 1200,
     "height": 675,
     "orientation": "landscape",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "likes": 49
   },
   {
     "id": 8,
@@ -85,7 +95,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 37
   },
   {
     "id": 9,
@@ -93,7 +104,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 114
   },
   {
     "id": 10,
@@ -101,7 +113,8 @@
     "width": 1200,
     "height": 674,
     "orientation": "landscape",
-    "aspectRatio": 1.78
+    "aspectRatio": 1.78,
+    "likes": 100
   },
   {
     "id": 11,
@@ -109,7 +122,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 34
   },
   {
     "id": 13,
@@ -117,7 +131,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 117
   },
   {
     "id": 12,
@@ -125,7 +140,8 @@
     "width": 1200,
     "height": 675,
     "orientation": "landscape",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "likes": 59
   },
   {
     "id": 14,
@@ -133,7 +149,8 @@
     "width": 959,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.799
+    "aspectRatio": 0.799,
+    "likes": 103
   },
   {
     "id": 17,
@@ -141,7 +158,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 65
   },
   {
     "id": 15,
@@ -149,7 +167,8 @@
     "width": 1200,
     "height": 800,
     "orientation": "landscape",
-    "aspectRatio": 1.5
+    "aspectRatio": 1.5,
+    "likes": 35
   },
   {
     "id": 18,
@@ -157,7 +176,8 @@
     "width": 959,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.799
+    "aspectRatio": 0.799,
+    "likes": 95
   },
   {
     "id": 19,
@@ -165,7 +185,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 59
   },
   {
     "id": 16,
@@ -173,7 +194,8 @@
     "width": 1200,
     "height": 800,
     "orientation": "landscape",
-    "aspectRatio": 1.5
+    "aspectRatio": 1.5,
+    "likes": 107
   },
   {
     "id": 20,
@@ -181,7 +203,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 102
   },
   {
     "id": 25,
@@ -189,7 +212,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 93
   },
   {
     "id": 21,
@@ -197,7 +221,8 @@
     "width": 1200,
     "height": 800,
     "orientation": "landscape",
-    "aspectRatio": 1.5
+    "aspectRatio": 1.5,
+    "likes": 31
   },
   {
     "id": 27,
@@ -205,7 +230,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 94
   },
   {
     "id": 31,
@@ -213,7 +239,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 60
   },
   {
     "id": 22,
@@ -221,7 +248,8 @@
     "width": 1200,
     "height": 900,
     "orientation": "landscape",
-    "aspectRatio": 1.333
+    "aspectRatio": 1.333,
+    "likes": 47
   },
   {
     "id": 33,
@@ -229,7 +257,8 @@
     "width": 960,
     "height": 1200,
     "orientation": "portrait",
-    "aspectRatio": 0.8
+    "aspectRatio": 0.8,
+    "likes": 76
   },
   {
     "id": 23,
@@ -237,7 +266,8 @@
     "width": 1200,
     "height": 674,
     "orientation": "landscape",
-    "aspectRatio": 1.78
+    "aspectRatio": 1.78,
+    "likes": 78
   },
   {
     "id": 28,
@@ -245,7 +275,8 @@
     "width": 1200,
     "height": 674,
     "orientation": "landscape",
-    "aspectRatio": 1.78
+    "aspectRatio": 1.78,
+    "likes": 114
   },
   {
     "id": 29,
@@ -253,7 +284,8 @@
     "width": 1200,
     "height": 800,
     "orientation": "landscape",
-    "aspectRatio": 1.5
+    "aspectRatio": 1.5,
+    "likes": 51
   },
   {
     "id": 30,
@@ -261,7 +293,8 @@
     "width": 1200,
     "height": 675,
     "orientation": "landscape",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "likes": 83
   },
   {
     "id": 32,
@@ -269,7 +302,8 @@
     "width": 1200,
     "height": 599,
     "orientation": "landscape",
-    "aspectRatio": 2.003
+    "aspectRatio": 2.003,
+    "likes": 46
   },
   {
     "id": 34,
@@ -277,6 +311,7 @@
     "width": 1200,
     "height": 675,
     "orientation": "landscape",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "likes": 102
   }
 ]
